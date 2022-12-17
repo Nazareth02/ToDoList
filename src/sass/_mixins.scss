@@ -1,0 +1,61 @@
+@mixin h1 {
+  font-family: "Reem Kufi Fun";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  color: #ffffff;
+}
+@mixin list_item-bg {
+  background: #121212;
+  border-radius: 10px;
+  width: 300px;
+}
+@mixin list_item-txt {
+  font-family: "Reem Kufi Fun";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 140%;
+  color: #ffffff;
+}
+@mixin form-text {
+  font-family: "Reem Kufi Fun";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 140%;
+  color: #494747;
+}
+@mixin form-button {
+  font-family: "Reem Kufi Fun";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 50px;
+  width: 140px;
+  height: 50px;
+  border: transparent;
+  cursor: pointer;
+}
+@mixin placeholder-text {
+  font-family: "Reem Kufi Fun";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 140%;
+  color: #494747;
+}
+@mixin formDel_bg {
+  background: rgb(192, 96, 161);
+  background: linear-gradient(
+    40deg,
+    rgba(192, 96, 161, 1) 0%,
+    rgba(96, 159, 192, 1) 33%,
+    rgba(89, 169, 172, 1) 52%,
+    rgba(84, 123, 157, 1) 66%,
+    rgba(72, 10, 120, 1) 100%
+  );
+}

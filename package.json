@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Pure js to do list",
   "source": "src/index.html",
+  "homepage": "https://nazareth02.github.io/ToDoList",
   "browserslist": "> 0.5%, last 3 versions, not dead",
   "scripts": {
+    "deploy": "gh-pages -d public",
     "dev": "parcel",
     "build": "parcel build"
   },
@@ -17,9 +19,9 @@
   "bugs": {
     "url": "https://github.com/Nazareth02/My-to-do-list/issues"
   },
-  "homepage": "https://github.com/Nazareth02/My-to-do-list#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
+    "gh-pages": "^4.0.0",
     "parcel": "^2.8.0"
   }
 }

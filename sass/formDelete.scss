@@ -1,0 +1,52 @@
+.formDel {
+  padding: 3px;
+  border: transparent;
+  @include formDel_bg;
+  width: 50%;
+  min-height: 100px;
+  margin: auto;
+
+  //   position: absolute;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  //   left: 0;
+  //   right: 0;
+  //   top: -80%;
+  //   transform: translate(20%) scale(0);
+  //   z-index: 10;
+  //   transition: 0.5s;
+  //   position: fixed;
+}
+.formDel_text {
+  @include form-text;
+  color: black;
+  font-size: 2rem;
+}
+.formDel.active {
+  transition: 0.5s;
+  top: 8%;
+  transform: scale(1);
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.55);
+}
+.formDel-content {
+}
+.close-formDel {
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  float: right;
+}
+.close-formDel:hover {
+  color: #ce2345f8;
+}
+.close-formDel:active {
+  transform: scale(0.9);
+}
+.formDel-btns {
+  display: flex;
+  justify-content: space-between;
+  .btn-accept {
+  }
+  .btn-deny {
+  }
+}

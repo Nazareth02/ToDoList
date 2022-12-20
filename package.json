@@ -6,22 +6,25 @@
   "homepage": "https://nazareth02.github.io/ToDoList",
   "browserslist": "> 0.5%, last 3 versions, not dead",
   "scripts": {
-    "deploy": "gh-pages -d public",
+    "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist",
     "dev": "parcel",
     "build": "parcel build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nazareth02/My-to-do-list.git"
+    "url": "git+https://github.com/Nazareth02/ToDoList.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Nazareth02/My-to-do-list/issues"
+    "url": "https://github.com/Nazareth02/ToDoList/issues"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
     "gh-pages": "^4.0.0",
     "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "sass": "^1.57.0"
   }
 }

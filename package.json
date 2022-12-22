@@ -7,7 +7,7 @@
   "browserslist": "> 0.5%, last 3 versions, not dead",
   "scripts": {
     "deploy": "npm run build && gh-pages -d dist",
-    "dev": "parcel",
+    "dev": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html --no-source-maps --public-url ."
   },
   "repository": {
@@ -24,7 +24,5 @@
     "gh-pages": "^4.0.0",
     "parcel": "^2.8.0"
   },
-  "dependencies": {
-    "sass": "^1.57.0"
-  }
+  "dependencies": {}
 }
